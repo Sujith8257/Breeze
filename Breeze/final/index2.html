@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals2.css" />
+    <link rel="stylesheet" href="style2.css" />
+    <script>
+      function validateForm(event) {
+        event.preventDefault(); // Prevent form from submitting
+
+        const username = document.getElementById("username").value;
+        const password = document.getElementById("password").value;
+
+        // Check if fields are empty
+        if (!username || !password) {
+          alert("Please fill in all required fields."); // Show alert if fields are empty
+        } else {
+          window.location.href = "index4.html"; // Redirect to the next page
+        }
+      }
+
+      function redirectToForgotPassword() {
+        window.location.href = "index6.html"; // Redirect to forgot password page
+      }
+    </script>
+  </head>
+  <body>
+    <div class="login">
+      <div class="overlap-wrapper">
+        <div class="overlap">
+          <div class="frame"></div>
+          <div class="rectangle"></div>
+          <div class="overlap-group-wrapper">
+            <form onsubmit="validateForm(event)">
+              <div class="fram">
+                <button type="submit">
+                  <div class="text-wrapper">Login</div>
+                  <img class="img" src="img/rectangle-2.png" />
+                </button>
+              </div>
+            </form>
+          </div>
+          <img class="logo-no-background" src="img/logo-no-background-1.png" />
+          <div class="div"></div>
+          <div class="rectangle-2"></div>
+          <div class="text-wrapper-2 forgot-password" onclick="redirectToForgotPassword()">Forgot Password?</div>
+          <div class="text-wrapper-3">
+            <div class="form-control">
+              <input type="text" id="username" required="required" />
+              <label>
+                <span style="transition-delay:0ms">U</span><span style="transition-delay:50ms">s</span><span style="transition-delay:100ms">e</span><span style="transition-delay:150ms">r</span><span style="transition-delay:200ms">n</span><span style="transition-delay:250ms">a</span><span style="transition-delay:300ms">m</span><span style="transition-delay:350ms">e</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="password">
+            <div class="pass">
+              <input class="input" id="password" type="password" required="required" />
+              <label>
+                <span style="transition-delay:0ms">E</span><span style="transition-delay:50ms">n</span><span style="transition-delay:100ms">t</span><span style="transition-delay:150ms">e</span><span style="transition-delay:200ms">r</span> <span style="transition-delay:250ms">P</span><span style="transition-delay:300ms">a</span><span style="transition-delay:350ms">s</span><span style="transition-delay:350ms">s</span><span style="transition-delay:350ms">w</span><span style="transition-delay:350ms">o</span><span style="transition-delay:350ms">r</span><span style="transition-delay:350ms">d</span>
+              </label>
+            </div>
+          </div>
+
+          <img class="user-name-logo" src="img/user-name-logo-1.png" />
+          <img class="password-2" src="img/password-1.png" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

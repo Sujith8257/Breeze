@@ -1,0 +1,170 @@
+.second {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.second .overlap-group-wrapper {
+  background-color: #ffffff;
+  width: 1500px;
+  height: 720px;
+}
+
+.second .overlap-group {
+  position: relative;
+  height: 720px;
+  background-image: url(./img/loc.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.second .beach {
+  position: absolute;
+  width: 1500px;
+  height: 720px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.second .rectangle {
+  position: absolute;
+  width: 1500px;
+  height: 720px;
+  top: 0;
+  left: 0;
+  background-color: #0000004c;
+}
+
+.second .div {
+  position: absolute;
+  width: 1500px;
+  height: 85px;
+  top: 0;
+  left: 0;
+  background-color: #d9d9d94c;
+}
+
+.second .logo-no-background {
+  position: absolute;
+  width: 113px;
+  height: 85px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.second .acco-removebg {
+  position: absolute;
+  width: 66px;
+  height: 62px;
+  top: 11px;
+  left: 1412px;
+}
+
+.second .text-wrapper {
+  position: absolute;
+  top: 19px;
+  left: 1225px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: 44px;
+  white-space: nowrap;
+}
+
+.second .mypadu {
+  position: absolute;
+  width: 586px;
+  height: 318px;
+  top: 85px;
+  left: 16px;
+}
+
+.second .text-wrapper-2 {
+  position: absolute;
+  width: 604px;
+  top: 424px;
+  left: 16px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 44px;
+  white-space: nowrap;
+}
+
+.second .rectangle-2 {
+  position: absolute;
+  width: 840px;
+  height: 596px;
+  top: 101px;
+  left: 638px;
+  background-color: #fefefe4c;
+  border-radius: 51px;
+}
+
+.second .hotels-nearby-hotel {
+  position: absolute;
+  top: 494px;
+  left: 678px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 44px;
+}
+
+.second .nearby-famous-places {
+  position: absolute;
+  width: 767px;
+  top: 299px;
+  left: 678px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 44px;
+}
+
+.second .p {
+  position: absolute;
+  top: 221px;
+  left: 678px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 44px;
+  white-space: nowrap;
+}
+
+.second .text-wrapper-3 {
+  position: absolute;
+  width: 778px;
+  top: 126px;
+  left: 678px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: 44px;
+}
+
+.second .map {
+  position: absolute;
+  width: 594px;
+  height: 218px;
+  top: 479px;
+  left: 15px;
+  object-fit: cover;
+}
